@@ -1,0 +1,83 @@
+#root {
+  margin: 0 auto;
+}
+
+.app {
+  border: solid;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.hero img {
+  height: 200px;
+  width: 100%;
+  padding: 2rem;
+}
+
+.image-tile {
+  height: 200px;
+  float: left;
+  margin-right: 1em;
+}
+
+.headline {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  width: 45%;
+}
+
+.headline:hover {
+  background: black
+}
+
+.content h2 {
+  margin-top: 0;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.content {
+  display: block;
+}
+
+date {
+  color: yellow;
+}
+
+.footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .headline {
+    align-items: flex-start; /* Align items to the left on smaller screens */
+  }
+  
+  .image-tile {
+    margin: 0; /* Remove margins to stack the image on top */
+  }
+}
