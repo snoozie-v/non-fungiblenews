@@ -3,10 +3,11 @@
 }
 
 .app {
-  border: solid;
   flex: 1;
   display: flex;
   flex-direction: column;
+  padding: 0;
+  margin: 0;
 }
 
 .hero {
@@ -18,7 +19,7 @@
 
 .hero img {
   height: 200px;
-  width: 100%;
+  width: 80%;
   padding: 2rem;
 }
 
@@ -30,13 +31,14 @@
 
 .headline {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   padding: 1em;
   width: 45%;
+  /* flex-wrap: wrap; */
 }
 
 .headline:hover {
-  background: black
+  background: black;
 }
 
 .content h2 {
@@ -74,11 +76,13 @@ h3 {
 
 @media (max-width: 768px) {
   .headline {
-    /*align-items: flex-start;  Align items to the left on smaller screens */
+    /* align-items: flex-start;  Align items to the left on smaller screens */
     flex-direction: column;
     align-items: center;
     text-align: center;
     width: 100%;
+    margin: 0;
+    padding: 1em;
   }
 
   .right {
@@ -87,7 +91,11 @@ h3 {
   
   .image-tile {
     margin: 0 auto 1em; /* Remove margins to stack the image on top */
-    float: none;
+    float: left;
+  }
+
+  .content p {
+    padding: 2em;
   }
   
 }
@@ -101,4 +109,5 @@ h3 {
     background: black;
     color: white;
   }
+
 }
