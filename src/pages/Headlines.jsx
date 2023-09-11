@@ -20,7 +20,7 @@ function Headlines() {
             Looking for that hometown feel with a twist? Goatz Club Polygon mint is open.
             For just 20 $MATIC, follow a well-established VeChain project to a new chain,
             advancing your NFT Journey.
-            <a href="https://twitter.com/GoatzNFT_">Follow Goatz Club on X.</a></p>
+            <a href="https://twitter.com/GoatzNFT_"> Follow Goatz Club on X.</a></p>
           </div>
         </div>
         <div className="headline right">

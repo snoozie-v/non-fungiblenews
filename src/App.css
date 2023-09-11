@@ -92,3 +92,13 @@ h3 {
   
 }
 
+@media (prefers-color-scheme: light) {
+  date {
+    color: indianred;
+  }
+
+  .headline:hover {
+    background: black;
+    color: white;
+  }
+}
