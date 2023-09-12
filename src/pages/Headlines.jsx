@@ -2,16 +2,109 @@
 import React from "react"
 import goatz from "../assets/goatz.jpg"
 import exo from "../assets/exo.jpg"
+import exo2 from "../assets/exo2.jpg"
 import mva from "../assets/mva.jpg"
 import sunny from "../assets/sunny.jpeg"
 import tricky from "../assets/tricky.jpeg"
 import vvardogs from "../assets/vvardogs.jpg"
+import coinbase from "../assets/coinbase.png"
+import vpunks from "../assets/vpunks.jpg"
+import wov from "../assets/wov.png"
+import smuzzies from "../assets/smuzzies.jpg"
+
 
 function Headlines() {
   return (
     <div>
        <h1>Recent VeChain Community Headlines</h1>
        <hr/>
+
+       <div className="headline left">
+          <img className="image-tile" src={coinbase} alt="related to story" />
+          <div className="content">
+            <h2>VET Coinbase Listing</h2>
+            <p><date>9/12/23 - </date> 
+            After years of waiting and asking, Coinbase
+            is FINALLY listing $VET and $VTHO in their exchange.
+            Trading will begin after 9:30 AM PST tomorrow 9/13 as long as liquidity is sufficient.
+            </p>
+          </div>
+        </div>
+        <div className="headline right">
+          <img className="image-tile" src={smuzzies} alt="related to story" />
+          <div className="content">
+            <h2>Longevity: Smuzzies</h2>
+            <p><date>9/12/23 - </date> 
+            <a href="https://twitter.com/Smuzzies_NFT"> @Smuzzies_NFT</a>
+            may not be as old, but they are certainly one of the busiest 
+            innovators around. If you have not yet, learn just what owning 
+            a Smuzzies can do for you and your favorite NFTs.
+            <br/><br/>
+            Also, check out their current event happening now to win some amazing prizes
+            as they celebrate 10k <a href="https://3dables.smuzzies.com/">3DAbles platform </a>mints
+            </p>
+          </div>
+        </div>
+
+
+       <div className="headline left">
+          <img className="image-tile" src={wov} alt="related to story" />
+          <div className="content">
+            <h2>Longevity Wold of V</h2>
+            <p><date>9/12/23 - </date> 
+            <a href="https://twitter.com/worldofv_art">World of V</a> is nearly 2 years old and they are currently leading in 
+            the world of Phygitals. If you have been around since launch, you would 
+            be amazed at how much they have transformed.<br/><br/>
+            They are setting the bar high.<br/><br/>
+            <a href="https://worldofv.art/collection/genesis">Genesis Collection</a>
+            </p>
+          </div>
+        </div>
+        <div className="headline right">
+          <img className="image-tile" src={vpunks} alt="related to story" />
+          <div className="content">
+            <h2>Longevity: VPUNKS</h2>
+            <p><date>9/12/23 - </date> 
+            <a href="https://twitter.com/vpunksofficial"> @VPUNKS</a>, the OG of all, has been at it for over 2 years!  
+            Upon mint-out, staking was available and has not stopped. They 
+            also were the pioneers of p2e games on the chain. 
+            <br/>
+            🟢 Buy Punks<br/>
+            🟢 Play the game<br/>
+            🟢 Earn/Stake $VPU<br/>
+            </p>
+          </div>
+        </div>
+
+
+        <div className="headline left">
+          <img className="image-tile" src={exo2} alt="related to story" />
+          <div className="content">
+            <h2>$EXO Whitelist Closing Soon</h2>
+            <p><date>9/12/23 - </date> 
+            <a href="https://twitter.com/ExoWorldsNFT">@ExoWorldsNFT</a> is just days away from 
+            launching their $EXO Token Sale on 9/15. The Whitelist is still open and gets you a
+             20% price reduction to the public mint. <br/> <br/>
+             Only 300 Million tokens are available, and once they are gone, the public mint begins
+              at a higher price.
+            </p>
+          </div>
+        </div>
+        <div className="headline right">
+          <img className="image-tile" src={tricky} alt="related to story" />
+          <div className="content">
+            <h2>$EXO Deep Dive</h2>
+            <p><date>9/12/23 - </date> 
+            $EXO will be a BEP-20 and VIP-180 token, serving several utilities like, voting in
+            community decisions, enhance gameplay with in-game assets, or even build your dreams 
+            within ExoWorlds
+            <br/><br/>
+            Read more about the tokenomics 👉 <a href="https://exoworlds.io/tokenomics/">here</a>
+            </p>
+          </div>
+        </div>
+
+
        <div className="headline left">
           <img className="image-tile" src={goatz} alt="related to story" />
           <div className="content">
@@ -34,6 +127,8 @@ function Headlines() {
             <a href="http://exoworlds.io/tokenomics"> click here.</a></p>
           </div>
         </div>
+
+
         <div className="headline left">
           <img className="image-tile" src={mva} alt="related to story" />
           <div className="content">
@@ -56,6 +151,8 @@ function Headlines() {
             <a href="https://twitter.com/sunshinelu24/status/1696585147779318058?s=20"> Listen Here.</a></p>
           </div>
         </div>
+
+
         <div className="headline left">
           <img className="image-tile" src={tricky} alt="related to story" />
           <div className="content">
@@ -77,6 +174,8 @@ function Headlines() {
             <a href="https://twitter.com/sunshinelu24"> here</a></p>
           </div>
         </div>
+
+
         <div className="headline left">
           <img className="image-tile" src={vvardogs} alt="related to story" />
           <div className="content">
@@ -99,6 +198,7 @@ function Headlines() {
           </div>
         </div>
         
+
     </div>
   )
 }
