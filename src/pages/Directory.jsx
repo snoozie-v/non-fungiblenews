@@ -11,7 +11,7 @@ function Directory() {
 
           <div><h1>Project Directory</h1></div>
          <div><h2>Under Construction</h2></div>
-          <div>
+          <div className="projects">
           <div className="project"><p>BlackVeMarket</p></div>
           <div className="project"><p>Corgi Gang</p></div>
           <div className="project"><p>ExoWorlds</p></div>

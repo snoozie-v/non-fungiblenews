@@ -10,8 +10,11 @@ import cardano from "../assets/cardano.png"
 function Home() {
   return (
     <div className="home">
+      <Hero />
         <h1>Non-Fungible News</h1>
       <h2>Unbiased coverage of emerging Web3 communities</h2>
+        
+        <div className='ecosystems'>
         <div className='ecosystem'>
         <img src={vechain}></img>
         <h2>vechain</h2>
@@ -55,6 +58,7 @@ function Home() {
         <ul>
           <li>Tricky</li>
         </ul>
+        </div>
         </div>
       <Footer />
     </div>
