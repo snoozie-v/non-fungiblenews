@@ -12,7 +12,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  padding: 0
+  padding: 0;
+}
+
+#root {
+  width: 100%
 }
 
 a {
@@ -31,7 +35,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  
 }
 
 h1 {
