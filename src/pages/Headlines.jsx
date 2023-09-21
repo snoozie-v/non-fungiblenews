@@ -11,15 +11,121 @@ import coinbase from "../assets/coinbase.png"
 import vpunks from "../assets/vpunks.jpg"
 import wov from "../assets/wov.png"
 import smuzzies from "../assets/smuzzies.jpg"
+import Hero from "../pages/Hero"
+import Footer from "../pages/Footer"
+import vechain from "../assets/vechain.png"
+import goldenempire from "../assets/goldenempire.jpeg"
+import connor from "../assets/connor.jpeg"
+
+// template for new stories
+
+{/* <div className="headline">
+<img className="image-tile" src={REPLACE_ME} alt="related to story" />
+<div className="content">
+  <h2>TITLE_OF_HEADLINE</h2>
+  <p><date>DATE WRITTEN - </date> 
+  SOME TEXT ABOUT THE HEADLINE<BR/>
+  </p>
+</div>
+</div> */}
 
 
 function Headlines() {
   return (
     <div>
-       <h1>Recent VeChain Community Headlines</h1>
+      <Hero />
+       <h1>VeChain Headlines</h1>
        <hr/>
+      <div className="headlines">
 
-       <div className="headline left">
+      <div className="headline">
+          <img className="image-tile" src={tricky} alt="related to story" />
+          <div className="content">
+          <h2>Advice from Tricky</h2>
+          <p><date>9/19/23 - </date> 
+          Here are a few ways to protect yourself and your assets.<br/><br/>
+
+🚨 NEVER give your keys out.<br/>
+🚨 Never connect to a dApp that you have not verified. <br/>
+🚨 Use a cold wallet. <br/>
+🚨 Make trades with a secondary, empty wallet.<br/><br/>
+
+If it sounds too good to be true, it is.
+          </p>
+          </div>
+        </div>
+
+      <div className="headline">
+          <img className="image-tile" src={goatz} alt="related to story" />
+          <div className="content">
+          <h2>Goatz Mint Out</h2>
+          <p><date>9/19/23 - </date> 
+          Goats club, another VeChain native project, has minted out on Polygon. 
+          <br/><br/>
+          They are already staking for $MILK on VeChain and will soon have staking on Polygon as well.
+          </p>
+          </div>
+        </div>
+
+
+        <div className="headline">
+          <img className="image-tile" src={vechain} alt="related to story" />
+          <div className="content">
+          <h2>It is happening</h2>
+          <p><date>9/19/23 - </date> 
+          So #VeChain is catching up with the times. <br/>
+          🚨Finally listed $VET on Coinbase. <br/>
+          🚨Finally have a defi/NFT wallet. <br/>
+          🚨Finally engaging with community. <br/><br/>
+
+          If you have some patience watch the $VET / $VTHO pair and make some nice gains.
+          </p>
+          </div>
+        </div>
+
+        <div className="headline">
+          <img className="image-tile" src={goldenempire} alt="related to story" />
+          <div className="content">
+          <h2>Minting Now</h2>
+          <p><date>9/19/23 - </date> 
+          We have a small handful of other projects minting now, all OG #VeChain projects. <br/><br/>
+            🚀 Non Fungible Book Club <br/>
+            🚀 Non FungiBulls <br/>
+            🚀 Golden Empire Gods 2.0  <br/>
+            🚀 StonerPunks Pepe Plug <br/> <br/>
+            These founders have all been around longer than most, give ‘em a look!
+          </p>
+          </div>
+        </div>
+
+                <div className="headline">
+          <img className="image-tile" src={connor} alt="related to story" />
+          <div className="content">
+          <h2>NFTxLV</h2>
+          <p><date>9/19/23 - </date> 
+          ♠️ NFTxLV is right around the corner and most of our prominent VeChain projects will be represented there. 
+          <br/><br/>
+          Historically a Cardano convention, it has now embraced all blockchains. 
+          @cboundy22
+ leads the #VeFam, ensuring smooth operations.
+          </p>
+          </div>
+        </div>
+
+                <div className="headline">
+          <img className="image-tile" src={vvardogs} alt="related to story" />
+          <div className="content">
+          <h2>VVAR Dawgs Expand to ETH</h2>
+          <p><date>9/19/23 - </date> 
+          🐶 VVar Dogs are branching out to Ethereum next month. They are NOT leaving VeChain, just expanding their brand. <br/><br/>
+
+Being a veteran film company on a small blockchain, this is a smart move. Many eyes on ETH, and the Dawgs shift will surely draw more eyes back to VeFam.
+          </p>
+          </div>
+        </div>
+
+
+       <div className="headline">
           <img className="image-tile" src={coinbase} alt="related to story" />
           <div className="content">
             <h2>VET Coinbase Listing</h2>
@@ -30,7 +136,7 @@ function Headlines() {
             </p>
           </div>
         </div>
-        <div className="headline right">
+        <div className="headline">
           <img className="image-tile" src={smuzzies} alt="related to story" />
           <div className="content">
             <h2>Longevity: Smuzzies</h2>
@@ -47,7 +153,7 @@ function Headlines() {
         </div>
 
 
-       <div className="headline left">
+       <div className="headline">
           <img className="image-tile" src={wov} alt="related to story" />
           <div className="content">
             <h2>Longevity Wold of V</h2>
@@ -60,7 +166,7 @@ function Headlines() {
             </p>
           </div>
         </div>
-        <div className="headline right">
+        <div className="headline">
           <img className="image-tile" src={vpunks} alt="related to story" />
           <div className="content">
             <h2>Longevity: VPUNKS</h2>
@@ -77,7 +183,7 @@ function Headlines() {
         </div>
 
 
-        <div className="headline left">
+        <div className="headline">
           <img className="image-tile" src={exo2} alt="related to story" />
           <div className="content">
             <h2>$EXO Whitelist Closing Soon</h2>
@@ -90,7 +196,7 @@ function Headlines() {
             </p>
           </div>
         </div>
-        <div className="headline right">
+        <div className="headline">
           <img className="image-tile" src={tricky} alt="related to story" />
           <div className="content">
             <h2>$EXO Deep Dive</h2>
@@ -105,7 +211,7 @@ function Headlines() {
         </div>
 
 
-       <div className="headline left">
+       <div className="headline">
           <img className="image-tile" src={goatz} alt="related to story" />
           <div className="content">
             <h2>Goatz Push Forward</h2>
@@ -116,7 +222,7 @@ function Headlines() {
             <a href="https://twitter.com/GoatzNFT_"> Follow Goatz Club on X.</a></p>
           </div>
         </div>
-        <div className="headline right">
+        <div className="headline">
           <img className="image-tile" src={exo} alt="related to story" />
           <div className="content">
             <h2>ExoWorld Token Launch</h2>
@@ -129,7 +235,7 @@ function Headlines() {
         </div>
 
 
-        <div className="headline left">
+        <div className="headline">
           <img className="image-tile" src={mva} alt="related to story" />
           <div className="content">
             <h2>Top Volume Projects</h2>
@@ -140,7 +246,7 @@ function Headlines() {
             VeSea Volume</a></p>
           </div>
         </div>
-        <div className="headline right">
+        <div className="headline">
           <img className="image-tile" src={sunny} alt="related to story" />
           <div className="content">
             <h2>Sunny Lu Interview</h2>
@@ -153,7 +259,7 @@ function Headlines() {
         </div>
 
 
-        <div className="headline left">
+        <div className="headline">
           <img className="image-tile" src={tricky} alt="related to story" />
           <div className="content">
             <h2>Keep Moving Forward</h2>
@@ -163,7 +269,7 @@ function Headlines() {
             fizzled, but NFTs are far from over.</p>
           </div>
         </div>
-        <div className="headline right">
+        <div className="headline">
           <img className="image-tile" src={sunny} alt="related to story" />
           <div className="content">
             <h2>Sunny Lu Invites You</h2>
@@ -176,7 +282,7 @@ function Headlines() {
         </div>
 
 
-        <div className="headline left">
+        <div className="headline">
           <img className="image-tile" src={vvardogs} alt="related to story" />
           <div className="content">
             <h2>Denver - EVO Web3 Expo</h2>
@@ -187,7 +293,7 @@ function Headlines() {
              and VVar Dogs founder <a href="https://twitter.com/braden_VVARDOGS"> Braden.</a></p>
           </div>
         </div>
-        <div className="headline right">
+        <div className="headline">
           <img className="image-tile" src={mva} alt="related to story" />
           <div className="content">
             <h2>Mad V Apes Leading the Way</h2>
@@ -197,8 +303,8 @@ function Headlines() {
             partnership with World of V marketplace/WOV Labs cements this innovation.</p>
           </div>
         </div>
-        
-
+        </div>
+    <Footer />
     </div>
   )
 }

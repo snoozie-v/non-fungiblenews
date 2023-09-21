@@ -10,6 +10,13 @@
   margin: 0;
 }
 
+.headlines {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 4rem;
+}
+
 .hero {
   align-items: center;
   display: flex;
@@ -24,38 +31,21 @@
 }
 
 .image-tile {
-  height: 200px;
+  height: 210px;
   float: left;
   margin-right: 1em;
+  width: 210px;
 }
 
 .headline {
   display: flex;
   align-items: flex-start;
-  padding: 1em;
-  width: 45%;
-  /* flex-wrap: wrap; */
 }
 
 .headline:hover {
   background: black;
 }
 
-.content h2 {
-  margin-top: 0;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.content {
-  display: block;
-}
 
 date {
   color: yellow;
@@ -74,26 +64,45 @@ h3 {
   padding: 0;
 }
 
+.navbar {
+  display: flex;
+  background-color: black;
+}
+
+.navitems {
+  display: flex;
+  list-style-type: none;
+  gap: 1em;
+}
+
+.navitem {
+  font-size: 1.5em;
+}
+
+.home img {
+  height: 10em;
+  width: auto;
+}
+
+.home h2 {
+  text-align: center;
+}
+
 @media (max-width: 768px) {
-  .headline {
-    /* align-items: flex-start;  Align items to the left on smaller screens */
+  .headlines {
+    display: flex;
     flex-direction: column;
+  }
+  
+  .headline {
+    align-items: flex-start;  Align items to the left on smaller screens
     align-items: center;
     text-align: center;
     width: 100%;
     margin: 0;
     padding: 1em;
   }
-
-  .right {
-    float: left;
-  }
   
-  .image-tile {
-    margin: 0 auto 1em; /* Remove margins to stack the image on top */
-    float: left;
-  }
-
   .content p {
     padding: 2em;
   }

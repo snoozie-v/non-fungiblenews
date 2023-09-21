@@ -1,19 +1,26 @@
 import './App.css'
 import Headlines from './pages/Headlines'
-import Hero from "./pages/Hero"
-import Footer from './pages/Footer'
+import { Routes, Route } from "react-router-dom";
+import Directory from './pages/Directory'
+import Layout from './pages/Layout';
+import NoPage from './pages/NoPage';
+import Home from './pages/Home';
+import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter
 
 function App() {
   
 
   return (
-    <>
-      <div className="app">
-        <Hero />
-        <Headlines />
-        <Footer />
-      </div>
-    </>
+    <Router>
+    < Routes>
+    <Route className="app" path ="/" element={<Layout />}>
+        <Route index element = {<Home />} />
+        <Route path="headlines" element={<Headlines />} />
+        <Route path="directory" element={<Directory />} />
+        <Route path="*" element={<NoPage />} />
+        </Route>
+    </Routes>
+    </Router>
   )
 }
 
