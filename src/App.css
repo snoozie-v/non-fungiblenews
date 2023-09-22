@@ -79,6 +79,10 @@ h3 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
 .ecosystems {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -94,7 +98,19 @@ h3 {
 
 .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 2rem;
+}
+
+.projects img {
+  height: 200px;
+  width: 200px
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
