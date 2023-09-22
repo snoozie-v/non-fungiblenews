@@ -5,16 +5,16 @@ import vechain from '../assets/vechain.png'
 import algorand from '../assets/algorand.png'
 import guac from "../assets/guac.png"
 import cardano from "../assets/cardano.png"
-
+import Headlines from "../pages/Headlines"
 
 function Home() {
   return (
     <div className="home">
       <Hero />
-        <h1>Non-Fungible News</h1>
-      <h2>Unbiased coverage of emerging Web3 communities</h2>
-        
-        <div className='ecosystems'>
+
+      <h2>Unbiased coverage of our Web3 community</h2>
+        <Headlines />
+        {/* <div className='ecosystems'>
         <div className='ecosystem'>
         <img src={vechain}></img>
         <h2>vechain</h2>
@@ -59,7 +59,7 @@ function Home() {
           <li>Tricky</li>
         </ul>
         </div>
-        </div>
+        </div> */}
       <Footer />
     </div>
   )

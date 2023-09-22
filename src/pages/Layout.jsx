@@ -10,12 +10,12 @@ function Layout() {
                     <li className="navitem">
                     <Link to="/">Home</Link>
                     </li>
-                    <li className="navitem">
+                    {/* <li className="navitem">
                     <Link to="/headlines">Headlines</Link>
-                    </li>
-                    <li className="navitem">
+                    </li> */}
+                    {/* <li className="navitem">
                     <Link to="/directory">Directory</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
 

@@ -33,8 +33,6 @@ import connor from "../assets/connor.jpeg"
 function Headlines() {
   return (
     <div>
-      <Hero />
-       <h1>VeChain Headlines</h1>
        <hr/>
       <div className="headlines">
 
@@ -304,7 +302,6 @@ Being a veteran film company on a small blockchain, this is a smart move. Many e
           </div>
         </div>
         </div>
-    <Footer />
     </div>
   )
 }
