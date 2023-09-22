@@ -41,7 +41,8 @@ function Directory() {
           <div className="projects">
           <div className="project">
             <img src={blackvemarket} />
-            <p>BlackVeMarket</p></div>
+            <p>BlackVeMarket</p>
+            <p>x handle - @ blah blah </p></div>
           <div className="project">
             <img src={corgi} />
             <p>Corgi Gang</p></div>
