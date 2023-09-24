@@ -11,9 +11,8 @@ import coinbase from "../assets/coinbase.png"
 import vpunks from "../assets/vpunks.jpg"
 import wov from "../assets/wov.png"
 import smuzzies from "../assets/smuzzies.jpg"
-import Hero from "../pages/Hero"
-import Footer from "../pages/Footer"
-import vechain from "../assets/vechain.png"
+
+import vechain from "../assets/vechainLogo.png"
 import goldenempire from "../assets/goldenempire.jpeg"
 import connor from "../assets/connor.jpeg"
 
