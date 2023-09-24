@@ -169,7 +169,7 @@ h3 {
 
 }
 
-@media (max-width: 619px) {
+/* @media (max-width: 619px) {
   .headlines {
     display: flex;
     flex-direction: column;
@@ -195,4 +195,4 @@ h3 {
     flex-direction: column;
     align-item: flex-start;
   }
-}
+} */
