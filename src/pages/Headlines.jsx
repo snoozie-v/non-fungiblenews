@@ -11,10 +11,12 @@ import coinbase from "../assets/coinbase.png"
 import vpunks from "../assets/vpunks.jpg"
 import wov from "../assets/wov.png"
 import smuzzies from "../assets/smuzzies.jpg"
-
+import btc from "../assets/btc.png"
 import vechain from "../assets/vechainLogo.png"
 import goldenempire from "../assets/goldenempire.jpeg"
 import connor from "../assets/connor.jpeg"
+import nftxlv from "../assets/nftxlv.jpeg"
+import nonerds from "../assets/nonerds.jpg"
 
 // template for new stories
 
@@ -22,7 +24,7 @@ import connor from "../assets/connor.jpeg"
 <img className="image-tile" src={REPLACE_ME} alt="related to story" />
 <div className="content">
   <h2>TITLE_OF_HEADLINE</h2>
-  <p><date>DATE WRITTEN - </date> 
+  <p><date>10/3/23 - </date> 
   SOME TEXT ABOUT THE HEADLINE<BR/>
   </p>
 </div>
@@ -34,6 +36,84 @@ function Headlines() {
     <div>
        <hr/>
       <div className="headlines">
+
+<div className="headline">
+<img className="image-tile" src={exo} alt="related to story" />
+<div className="content">
+  <h2>Engage2Earn is Live</h2>
+  <p><date>10/4/23 - </date> 
+  🪐 Earn $EXO by simply engaging with them on Twitter and Discord.<br/><br/>
+   To do this you will need to set up a VeChain wallet on their discord.<br/><br/>
+
+FYI: You still have 12 days left to participate in the EXO Token Mint 👉 <a href="https://exoworlds.io/mint/">exoworlds.io/mint</a>
+  </p>
+</div>
+</div>
+
+
+<div className="headline">
+<img className="image-tile" src={nonerds} alt="related to story" />
+<div className="content">
+  <h2>No-Nerds Candy Tablets</h2>
+  <p><date>10/4/23 - </date> 
+@NoNerdsInc distributed their anti-nerd candy tablets.<br/> <br/>
+What initially began as an NFT has now materialized into a tangible reality.
+<br/><br/>
+Call it utility, ingenuity, or just plain clever, it’s working.
+  </p>
+</div>
+</div>
+
+
+<div className="headline">
+<img className="image-tile" src={nftxlv} alt="related to story" />
+<div className="content">
+  <h2>#NFTxLV Success</h2>
+  <p><date>10/4/23 - </date> 
+  Numerous projects from our ecosystem were showcased at one of the major NFT events in North America.
+<br/><br/>
+When the craze picks back up we will be on people’s minds. Now is the time to prepare.
+  </p>
+</div>
+</div>
+
+
+<div className="headline">
+<img className="image-tile" src={exo2} alt="related to story" />
+<div className="content">
+  <h2>Sept vechain NFT Sales</h2>
+  <p><date>10/4/2023 - </date> 
+ 📈 Last month, the #vechain NFT sales volume reached an impressive 5.1 million 
+ $VET or over $87,000, proving that there is still a big interest in the space.
+<br/>
+<br/>
+#VSEA: 472,372 $VET<br/>
+#EXO: 2,547,177 $VET<br/>
+#WOV: 2,011,226 $VET<br/>
+#BVM: 81,654 $VET<br/>
+#VPU: 7,448 $VET<br/>
+  </p>
+</div>
+</div>
+
+<div className="headline">
+<img className="image-tile" src={btc} alt="BitCoin Logo" />
+<div className="content">
+  <h2>September in the books</h2>
+  <p><date>10/4/23 - </date> 
+Here are the numbers:
+<br/>
+🟢 $BTC is up 8% <br/>
+🟢 $TOTAL is up 2%<br/>
+🟢 $VET is up 8%<br/>
+<br/>
+Not too shabby, right? 
+<br/><br/>
+Time will tell how this cycle plays out. The 'halving' is just a few short months away! ⏳
+  </p>
+</div>
+</div>
+
 
       <div className="headline">
           <img className="image-tile" src={tricky} alt="related to story" />
