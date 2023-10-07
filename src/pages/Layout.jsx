@@ -10,6 +10,9 @@ function Layout() {
                     <li className="navitem">
                     <Link to="/">Home</Link>
                     </li>
+                    <li className="navitem"><Link 
+                      to="https://volume-mauve.vercel.app/">
+                      Sales-Today</Link></li>
                     {/* <li className="navitem">
                     <Link to="/headlines">Headlines</Link>
                     </li> */}

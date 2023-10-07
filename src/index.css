@@ -1,7 +1,7 @@
 :root {
-  font-family: "Mono", sans-serif;
+  font-family: Roboto;
   line-height: normal;
-  font-weight: 400;
+  font-weight: 500;
 
   color-scheme: light dark;
   color: #ffffffde;
@@ -21,7 +21,7 @@
 
 a {
   font-weight: 500;
-  color: #7b7bff;
+  color: yellow;
   text-decoration: inherit;
 }
 a:hover {

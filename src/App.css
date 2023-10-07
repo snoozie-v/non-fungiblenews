@@ -47,6 +47,7 @@ h3 {
   display: flex;
   background-color: black;
   width: 100%;
+  gap: 10px;
 }
 
 .navitems {
@@ -56,7 +57,7 @@ h3 {
 }
 
 .navitem {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .header {
