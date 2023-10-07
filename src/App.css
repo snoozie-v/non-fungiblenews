@@ -115,10 +115,10 @@ h3 {
 
 .content {
   max-width: 750px;
-  min-width: 585px;
+  /* min-width: 585px; */
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1600px) {
   .headlines {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -126,7 +126,7 @@ h3 {
   }
 }
 
-@media (max-width: 915px) {
+@media (max-width: 899px) {
   .headlines {
     display: flex;
     flex-direction: column;
@@ -170,7 +170,7 @@ h3 {
 
 }
 
-@media (max-width: 619px) {
+@media (max-width: 525px) {
   .headlines {
     display: flex;
     flex-direction: column;
