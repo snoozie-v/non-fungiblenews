@@ -17,6 +17,9 @@ import goldenempire from "../assets/goldenempire.jpeg"
 import connor from "../assets/connor.jpeg"
 import nftxlv from "../assets/nftxlv.jpeg"
 import nonerds from "../assets/nonerds.jpg"
+import xLogo from "../assets/xLogo.png"
+import golden from "../assets/goldenempire.jpeg"
+import ukiyoe from "../assets/ukiyoe.jpg"
 
 // template for new stories
 
@@ -24,8 +27,8 @@ import nonerds from "../assets/nonerds.jpg"
 <img className="image-tile" src={REPLACE_ME} alt="related to story" />
 <div className="content">
   <h2>TITLE_OF_HEADLINE</h2>
-  <p><date>10/3/23 - </date> 
-  SOME TEXT ABOUT THE HEADLINE<BR/>
+  <p><date>10/11/23 - </date> 
+  SOME TEXT ABOUT THE HEADLINE<br/>
   </p>
 </div>
 </div> */}
@@ -36,6 +39,67 @@ function Headlines() {
     <div>
        <hr/>
       <div className="headlines">
+
+<div className="headline">
+<img className="image-tile" src={tricky} alt="related to story" />
+<div className="content">
+  <h2>Use Caution</h2>
+  <p><date>10/11/23 - </date> 
+  ⚠ Caution: Avoid over-investing. NFTs are speculative by nature and suggest risks. 
+<br/><br/>
+No investment is too urgent for thorough research. 
+<br/><br/>
+Focus on learning, understanding, and wise decision-making.<br/>
+  </p>
+</div>
+</div>
+
+<div className="headline">
+<img className="image-tile" src={ukiyoe} alt="related to story" />
+<div className="content">
+  <h2>Kijo Collection Loading...</h2>
+  <p><date>10/11/23 - </date> 
+  🥷 
+@UkiyoeWarriors
+ has dedicated considerable time to perfecting their Kijo collection.
+<br/><br/>
+Well, they recently announced that they will be launching 1,111 on #Polygon with date and price TBD. 
+<br/><br/>
+Another #VeChain project that is 𝙉𝙤𝙩 𝙡𝙚𝙖𝙫𝙞𝙣𝙜, but expanding.<br/>
+  </p>
+</div>
+</div>
+
+
+<div className="headline">
+<img className="image-tile" src={golden} alt="related to story" />
+<div className="content">
+  <h2>Golden Empire NFTs</h2>
+  <p><date>10/11/23 - </date> 
+  🦙 Want to put your 
+@LlamaStudio2021
+ NFTs to work?  <br/><br/>Head on over to their website, mint your God 2.0 NFT, and get in on the boss battle!
+<br/><br/>
+Use your NFT to battle and win prizes in $GOLD and other NFTs!
+<br/><br/>
+<a href="https://theinkaempirenft.com">theinkaempirenft.com</a><br/>
+  </p>
+</div>
+</div>
+
+<div className="headline">
+<img className="image-tile" src={xLogo} alt="related to story" />
+<div className="content">
+  <h2>𝕏 is Changing</h2>
+  <p><date>10/11/23 - </date> 
+  Things are rapidly changing here at degen central, commonly referred to as “𝕏”, some say better and some say worse.
+<br/><br/>
+In the war against bots, 𝕏 is moving toward a verified only platform.
+<br/><br/>
+If you want to continue, you may just sign here 👉 𝕏👈, pay the $8, and degen on.<br/>
+  </p>
+</div>
+</div>
 
 <div className="headline">
 <img className="image-tile" src={exo} alt="related to story" />
