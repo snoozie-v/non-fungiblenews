@@ -20,15 +20,18 @@ import nonerds from "../assets/nonerds.jpg"
 import xLogo from "../assets/xLogo.png"
 import golden from "../assets/goldenempire.jpeg"
 import ukiyoe from "../assets/ukiyoe.jpg"
+import vesea from "../assets/vesea.png"
 
 // template for new stories
 
 {/* <div className="headline">
-<img className="image-tile" src={REPLACE_ME} alt="related to story" />
+<img className="image-tile" src={btc} alt="related to story" />
 <div className="content">
-  <h2>TITLE_OF_HEADLINE</h2>
-  <p><date>10/11/23 - </date> 
-  SOME TEXT ABOUT THE HEADLINE<br/>
+  <h2>VeSea Update</h2>
+  <p><date>10/27/23 - </date> 
+⚖️ Check out the VeSea marketplace update at <a href="http://vesea.io">vesea</a> which includes community news, and announcements from creators in your favorite projects.
+<br/><br/>
+The revival of the launchpad is also here, featuring Non-Fungible BookClub, and more projects coming soon.
   </p>
 </div>
 </div> */}
@@ -39,6 +42,60 @@ function Headlines() {
     <div>
        <hr/>
       <div className="headlines">
+
+        <div className="headline">
+<img className="image-tile" src={vesea} alt="related to story" />
+<div className="content">
+  <h2>VeSea Update</h2>
+  <p><date>10/27/23 - </date> 
+⚖️ Check out the VeSea marketplace update at <a href="http://vesea.io">vesea</a> which includes community news, and announcements from creators in your favorite projects.
+<br/><br/>
+The revival of the launchpad is also here, featuring Non-Fungible BookClub, and more projects coming soon.
+  </p>
+</div>
+</div>
+
+<div className="headline">
+<img className="image-tile" src={btc} alt="related to story" />
+<div className="content">
+  <h2>False Start</h2>
+  <p><date>10/27/23 - </date> 
+🗞️ As we reach the middle of October we can see that the crypto market is far from stabilizing.
+<br/><br/>
+We had a bit of a “false start” with news of #Bitcoin ETF from @Cointelegraph.
+<br/><br/>
+Which ended up causing the price to breakout to the 34k range anyway.
+  </p>
+</div>
+</div>
+
+<div className="headline">
+<img className="image-tile" src={exo} alt="related to story" />
+<div className="content">
+  <h2>Beta Testers Needed</h2>
+  <p><date>10/27/23 - </date> 
+  🎮 Sign up to be a beta tester for ExoWorlds: <a href="https://forms.gle/CPGAbcom1Wh7DSaz7">click here</a>
+<br/><br/>
+#ExoWorlds has opened up the possibility for anyone to play in the Prototype closed beta coming up just around the corner.
+<br/><br/>
+They’ve also said that early access $EXO holders and whales will be given access.
+  </p>
+</div>
+</div>
+
+<div className="headline">
+<img className="image-tile" src={exo2} alt="related to story" />
+<div className="content">
+  <h2>Token Sold</h2>
+  <p><date>10/27/23 - </date> 
+  🪙 ExoWorlds finished their token sale and will open up on their website next week.
+<br/> <br/>
+The sale went smoothly with minor hiccups and about 300M tokens were sold.
+<br/> <br/>
+The team feels confident they will release the prototype soon.
+  </p>
+</div>
+</div>
 
 <div className="headline">
 <img className="image-tile" src={tricky} alt="related to story" />

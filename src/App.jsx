@@ -16,7 +16,7 @@ function App() {
     <Route path ="/" element={<Layout />}>
         <Route index element = {<Home />} />
         <Route path="headlines" element={<Headlines />} />
-        <Route path="directory" element={<Directory />} />
+        {/* <Route path="directory" element={<Directory />} /> */}
         <Route path="*" element={<NoPage />} />
         </Route>
     </Routes>
