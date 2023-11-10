@@ -8,11 +8,11 @@ function Layout() {
             <div className="navbar">
                 <ul className="navitems">
                     <li className="navitem">
-                    <Link to="/">Home</Link>
+                    <Link to="/">home</Link>
                     </li>
                     <li className="navitem"><Link 
                       to="https://volume-mauve.vercel.app/">
-                      Sales-Today</Link></li>
+                      sales-today</Link></li>
                     {/* <li className="navitem">
                     <Link to="/headlines">Headlines</Link>
                     </li> */}
