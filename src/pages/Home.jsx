@@ -6,9 +6,9 @@ import Headlines from "../pages/Headlines"
 function Home() {
   return (
     <div className="home">
+      <Hero />
 
-
-      <h2 className="header">vechain community coverage</h2>
+      <h2 className="header">Vechain NFT Community Coverage</h2>
         <Headlines />
 
       <Footer />
